@@ -9,6 +9,4 @@ app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname + "dist/angProj/index.html"));
 });
 
-app.listen(() => {
-  console.log("You app is being served");
-});
+app.listen(8080);
