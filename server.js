@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(__dirname + "/dist/angProj"));
 
 app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname + "dist/angProj/index.html"));
+  res.sendFile(path.join(__dirname + "/dist/angProj/index.html"));
 });
 
 app.listen(8080);
