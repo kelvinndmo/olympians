@@ -1,0 +1,13 @@
+<div *ngFor="let goal of goals">
+  <h1>{{ goal.name }}</h1>
+  <h6>{{ goal.description | camelCase }}</h6>
+  <p>{{ goal.dueDate | date | lowercase }}</p>
+  <button (click)="handleIsInterested(goal.name)" class="btn">
+    Am interested
+  </button>
+</div>
+
+<!-- {{}} -->
+<!-- *ngIf -->
+<!-- (click) Event Binding... -->
+<!-- | -->

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angProj"
+    }
+  },
+  "defaultProject": "angProj",
+  "cli": {
+    "analytics": false
+  }
 }
